@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+
+option java_outer_classname = "PersonProtoClass";
+
+message Person {
+  int32 id = 1;
+  bool sex = 2;
+  int64 phoneNumber = 3;
+  string email = 4;
+  repeated string nameSurname = 5;
+}
