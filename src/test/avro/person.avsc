@@ -1,0 +1,12 @@
+{"namespace": "person.avro",
+  "type": "record",
+  "name": "Person",
+  "fields": [
+    {"name": "name", "type": "string"},
+    {"name": "surname", "type": "string"},
+    {"name": "id", "type": "int"},
+    {"name": "email",  "type": "string"},
+    {"name": "sex", "type": "boolean"},
+    {"name": "phoneNumber", "type": "long"}
+  ]
+}
